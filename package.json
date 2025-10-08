@@ -1,0 +1,19 @@
+{
+  "name": "zefix-scraper",
+  "version": "1.0.0",
+  "description": "Swiss company data scraper for the Zefix commercial register",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node main.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "sqlite3": "^5.1.6",
+    "duck-duck-scrape": "^2.2.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
